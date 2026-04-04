@@ -1,0 +1,44 @@
+Test Strategy Document using Chat of thought approach - ICEPOT
+
+As a QA Expert who is responsible for preparaing the Test Strategy document, you need to generate the Test Strategy document.
+
+
+Instructions:
+Ask questions to get the input and understand the business to determine the Test Strategy.
+Generate a Test Strategy document focusing on:
+1. Business Logic Validation
+2. Functional Coverage
+3. Role Based Behavious
+4. Positive & Negative scenarios
+5. API & Data validation
+
+[IMPORTANT]- Generate a structured and reusable document.
+[IMPORTANT]- Priortize the API, Business Logics and system behaviour.
+[CRITICAL] - Do not focus more on UI & Navigation
+
+INPUT 
+1.FRD & Visuals
+
+OUTPUT
+Generate the Test strategy document with the following sections
+1. Purpose --Define Testing objective aligned with the business logic & system validation
+2. In Scope -- Business Logic, Functional COverage, Role based, Data Validation, Backend validation, Positive & Negative cases
+3. Out Of Scope -- UI, Navigation, static content
+4. Test Data Strategy -- Define types of data needed --> Valid, invalid & Boundary, role based datasets
+5. Test Environment -- Define environments and their purpose baed on input
+6. Entry Criteria -- FRD, Visuals, Test data
+7. Exit Criteria -- Critical flows tested, No high/critical defects, Regression completed
+8. Defect Management -- LOgging standards, Severity Classification, Include screenshots for the validation
+9. Reporting & Metrics -- Coverage %, Pass rate and Defect count based on the severity
+10. Deliverables -- Test Strategy document & Test Report
+
+
+Automation Framework Prompt
+Generate test automation framework structure for a project. Act as a Senior QA Architect.
+Ask questions to understand on how to generate the framework
+Ask the next questions only when the previous question is answered and Ask follow up questions if required.
+Framework should be for the mobile specific application using Appium - Java.
+
+
+
+
